@@ -28,6 +28,11 @@
 .logo {
     display: flex;
     align-items: center;
+    transition: background-color .2s linear;
+}
+
+.logo:hover {
+    background-color: #000;
 }
 
 .logo img {
@@ -58,7 +63,7 @@
     color: #969696;
     font-weight: 900;
     font-size: 13px;
-    transition: color .1s linear;
+    transition: color .2s linear;
 }
 
 .nav-list li:hover {
@@ -71,10 +76,6 @@
     color: #71af3a;
 }
 
-.shield-part img {
-    width: 20px;
-}
-
 .right-box {
     display: flex;
     flex-direction: row;
@@ -84,27 +85,42 @@
 
 .log-part {
     color: #969696;
-    margin-right: 2rem;
+    margin-right: 1rem;
 }
 
 .log-part a {
-    margin: 0 8px;
+    padding: 0 8px;
     text-decoration: none;
     color: #969696;
     font-weight: 900;
     font-size: 13px;
+    transition: color .2s linear;
+}
+
+.log-part a:hover {
+    color: #fff;
 }
 
 .shield-part {
-    margin-right: 1rem;
+    height: 50px;
+    transition: background-color .2s linear,
+    color .2s linear;
+    padding: 0 1rem;
     display: flex;
     align-items: center;
     color: #969696;
     font-weight: 900;
     font-size: 13px;
+    cursor: pointer;
+}
+
+.shield-part:hover {
+    background-color: #000;
+    color: #fff;
 }
 
 .shield-part img {
+    width: 20px;
     margin-right: .5rem;
 }
 
@@ -119,4 +135,5 @@
     font-weight: 900;
     font-size: 16px;
     text-shadow: 2px 2px 10px rgba(0, 0, 0, .8);
+    cursor: pointer;
 }

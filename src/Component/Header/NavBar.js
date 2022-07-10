@@ -27,7 +27,7 @@ export default function NavBar() {
                 </div>
                 <div className='shield-part'>
                     <img src="./images/general/header-nav/shield_icon_no_drop.png" alt="shield icon" />
-                    <span>MY CALL OF DUTY</span>
+                    MY CALL OF DUTY
                 </div>
                 <div className='pre-part'>
                     PRE-ORDER-MWII
