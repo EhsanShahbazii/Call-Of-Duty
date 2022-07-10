@@ -8,6 +8,7 @@
 }
 
 .container {
+    position: fixed;
     width: 100%;
     height: 50px;
     background-image: url("../../../public/images/general/header-nav/global-nav-bg.png");

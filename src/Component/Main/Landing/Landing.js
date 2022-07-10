@@ -12,7 +12,7 @@ export default function Landing() {
                 <div>
                     <h2>THE NEW ERA OF CALL OF DUTY DROPS OCTOBER 28TH</h2>
                 </div>
-                <div>
+                <div className='buttons-box'>
                     <Button text={'Watch Trailer'} />
                     <Button text={'Learn More'} />
                 </div>
