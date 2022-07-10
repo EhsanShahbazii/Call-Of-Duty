@@ -32,6 +32,7 @@ export default function NavBar() {
                 <div className='pre-part'>
                     PRE-ORDER-MWII
                 </div>
+                <img src="./images/general/header-nav/icons8-menu-48.png" alt="hamburger menu" className='ham-menu' />
             </div>
         </div>
     </>
