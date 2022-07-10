@@ -4,7 +4,7 @@ import Button from './../../Global/Button/Button';
 export default function Landing() {
   return (
     <>
-        <div className="container">
+        <div className="containers">
             <section>
                 <div className='logo-image'>
                     <img src="./images/main page/landing-part/cod-mw2-logo.png" alt="mw2 logo" />

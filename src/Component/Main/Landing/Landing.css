@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.containers {
+    width: 100%;
+    height: 600px;
+    background-image: url("../../../../public/images/main page/landing-part/5-24-ghost-hub-hero-desktop.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 3rem;
+    top: 10rem;
+}
+
+.logo-image img {
+    width: 450px;
+}
+
+h2 {
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+    width: 400px;
+    text-align: center;
+    color: #969696;
+    font-weight: 600;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    line-height: 25px;
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
