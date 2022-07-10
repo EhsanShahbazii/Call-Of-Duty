@@ -5,7 +5,7 @@ export default function NavBar() {
   return (
     <>
         <div className="container">
-            <div>
+            <div className='left-box'>
                 <div className='logo'>
                     <img src="./images/general/header-nav/cod-logo-white.svg" alt="call of duty logo"/>
                 </div>
@@ -19,18 +19,18 @@ export default function NavBar() {
                     </ul>
                 </nav>
             </div>
-            <div>
-                <div>
+            <div className='right-box'>
+                <div className='log-part'>
                     <a href="#">LOGIN</a>
-                    |
+                    <b>|</b>
                     <a href="#">SIGN UP</a>
                 </div>
-                <div>
+                <div className='shield-part'>
                     <img src="./images/general/header-nav/shield_icon_no_drop.png" alt="shield icon" />
                     <span>MY CALL OF DUTY</span>
                 </div>
-                <div>
-                    <span>PRE-ORDER-MWII</span>
+                <div className='pre-part'>
+                    PRE-ORDER-MWII
                 </div>
             </div>
         </div>
