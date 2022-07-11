@@ -4,12 +4,15 @@
     overflow: hidden;
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(490px, 1fr));
 }
 
 .one {
     width: 100%;
     min-height: 300px;
+    height: 100%;
     grid-column-start: 1;
     grid-column-end: 3;
     background-image: url("./../../../../public/images/main page/grid-pics-part/cq5dam.thumbnail.319.319\(10\).png");
@@ -44,14 +47,13 @@
 
 @media screen and (max-width: 1450px) {
 
-    .container-grid-part {
-        grid-template-columns: repeat(2, 1fr);
-    }
 
 }
 
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 801px) {
 
-
+    .container-grid-part {
+        top: 25rem;
+    }
 
 }
