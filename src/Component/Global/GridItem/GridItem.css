@@ -44,3 +44,13 @@
     color: #fff;
     font-weight: 500;
 }
+
+/***** responsive codes *****/
+
+@media screen and (max-width: 1500px) {
+
+}
+
+@media screen and (max-width: 470px) {
+ 
+}

@@ -8,6 +8,8 @@
 }
 
 .one {
+    width: 100%;
+    min-height: 300px;
     grid-column-start: 1;
     grid-column-end: 3;
     background-image: url("./../../../../public/images/main page/grid-pics-part/cq5dam.thumbnail.319.319\(10\).png");
@@ -36,4 +38,20 @@
 .one img {
     width: 300px;
     margin: 0 2rem;
+}
+
+/***** responsive codes *****/
+
+@media screen and (max-width: 1450px) {
+
+    .container-grid-part {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media screen and (max-width: 470px) {
+
+
+
 }
