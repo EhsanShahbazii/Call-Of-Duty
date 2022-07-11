@@ -14,8 +14,26 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.text-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-box span {
+    margin-left: .5rem;
+    width: 600px;
+    font-size: 1.8rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #fff;
 }
 
 .one img {
     width: 300px;
+    margin: 0 2rem;
 }

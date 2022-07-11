@@ -16,6 +16,7 @@ button {
     width: 200px;
     height: 50px;
     cursor: pointer;
+    border: none;
     transition: color .2s linear, 
     background-color .2s linear;
     margin: .5rem;

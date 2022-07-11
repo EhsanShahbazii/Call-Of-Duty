@@ -8,8 +8,10 @@ export default function Grid() {
         <div className="container-grid-part">
             <div className='one'>
               <img src=".\images\main page\grid-pics-part\CDLChampionship_2022_LOGO.png" alt="cld icon" />
-              <span>GET YOUR TICKETS TO CHAMPIONSHIP WEEKEND IN LOS ANGELES | AUG 4-7</span>
+              <div className="text-box">
+              <span>GET YOUR TICKETS TO<br /> CHAMPIONSHIP WEEKEND <br />IN LOS ANGELES | AUG 4-7</span>
               <Button text={"Lean More"} />
+              </div>
             </div>
             <GridItem />
             <GridItem />
