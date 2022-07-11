@@ -1,0 +1,21 @@
+.container-grid-part {
+    position: relative;
+    top: 50px;
+    overflow: hidden;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.one {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-image: url("./../../../../public/images/main page/grid-pics-part/cq5dam.thumbnail.319.319\(10\).png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.one img {
+    width: 300px;
+}
