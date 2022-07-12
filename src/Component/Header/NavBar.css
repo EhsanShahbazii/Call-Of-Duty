@@ -15,7 +15,6 @@
     background-image: url("../../../public/images/general/header-nav/global-nav-bg.png");
     background-size: 2px;
     letter-spacing: 2px;
-    text-transform: uppercase;
     display: flex;
     justify-content: space-between;
     align-items: center;

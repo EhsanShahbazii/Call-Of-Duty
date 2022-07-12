@@ -7,12 +7,11 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-button {
+.btn {
     background-color: #fff;
     color: #262523;
     font-size: 1.1rem;
     font-weight: 900;
-    text-transform: uppercase;
     width: 200px;
     height: 50px;
     cursor: pointer;
@@ -22,14 +21,14 @@ button {
     margin: .5rem;
 }
 
-button:hover {
+.btn:hover {
     color: #000;
     background-color: #aaa;
 }
 
 @media screen and (max-width: 800px) {
 
-    button {
+    .btn {
         font-size: 1rem;
         width: 70vw;
         min-width: 200px;

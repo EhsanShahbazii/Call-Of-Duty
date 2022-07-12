@@ -1,0 +1,23 @@
+.item-tainer {
+    width: 225px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+}
+
+.img-part {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.img-part img {
+    width: 225px;
+}
+
+.detail span {
+    color: #fff;
+    width: 100%;
+    font-weight: 500;
+}
