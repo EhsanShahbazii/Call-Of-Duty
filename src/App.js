@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from './Component/Footer/Footer';
 import NavBar from './Component/Header/NavBar';
 import GetGame from './Component/Main/GetGame/GetGame';
 import Grid from './Component/Main/Grid/Grid';
@@ -13,6 +14,7 @@ export default function App() {
       <Grid />
       <Slider />
       <GetGame />
+      <Footer />
     </>
   )
 }

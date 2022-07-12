@@ -1,0 +1,29 @@
+.container-footer {
+    margin: 0 auto;
+    height: 500px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-nav ul{
+    height: 100px;
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    color: #a59d95;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.footer-nav li {
+    margin: 0 2rem;
+}
+
+.footer-nav a {
+    font-size: .9rem;
+    color: #a59d95;
+    text-decoration: none;
+}
