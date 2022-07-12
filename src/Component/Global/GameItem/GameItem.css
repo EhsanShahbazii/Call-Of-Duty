@@ -1,0 +1,24 @@
+.container-get {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border: 1.5px solid yellow;
+    margin: .5rem;
+}
+
+.container-get img {
+    width: 100%;
+}
+
+.text-detail {
+    background: #000;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.722);
+    font-weight: 100;
+    font-size: .9rem;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: .5rem 1rem;
+}
