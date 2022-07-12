@@ -12,6 +12,7 @@
 .game-tainer {
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -23,4 +24,30 @@
     text-align: center;
     width: 100%;
     margin-bottom: 4rem;
+}
+
+/***** responsive codes *****/
+
+@media screen and (max-width: 1265px) {
+
+    .container-game {
+        top: 10rem;
+    }
+
+}
+
+@media screen and (max-width: 801px) {
+
+    .container-game {
+        top: 33rem;
+    }
+
+}
+
+@media screen and (max-width: 632px) {
+
+    .container-game {
+        top: 53rem;
+    }
+
 }
