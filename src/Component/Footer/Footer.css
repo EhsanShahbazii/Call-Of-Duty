@@ -65,3 +65,161 @@
 .footer-detail span {
     text-transform: lowercase;
 }
+
+/***** responsive codes *****/
+
+@media screen and (max-width: 1164px) {
+
+    .container-footer {
+        position: relative;
+        top: 10rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    .footer-nav a {
+        font-size: .7rem;
+    }
+
+    .footer-nav li {
+        margin: 0 1rem;
+    }
+
+    .left-icons {
+        gap: 1rem;
+    }
+
+    .img-icon1 {
+        width: 200px;
+    }
+
+    .img-icon2 {
+        width: 70px;
+    }
+}
+
+@media screen and (max-width: 801px) {
+
+    .container-footer {
+        position: relative;
+        top: 30rem;
+    }
+
+    .footer-nav li {
+        margin-bottom: 0;
+    }
+
+    .footer-nav a {
+        font-size: .7rem;
+    }
+
+    .left-icons {
+        gap: 1rem;
+    }
+
+    .img-icon1 {
+        width: 150px;
+    }
+
+    .img-icon2 {
+        width: 50px;
+    }
+}
+
+@media screen and (max-width: 633px) {
+
+    .container-footer {
+        position: relative;
+        top: 53rem;
+    }
+
+    .footer-nav a {
+        font-size: .5rem;
+    }
+
+    .img-icon1 {
+        width: 120px;
+    }
+
+    .img-icon2 {
+        width: 50px;
+    }
+
+    .footer-icons {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 582px) {
+
+    .container-footer {
+        position: relative;
+        top: 70rem;
+    }
+
+}
+
+@media screen and (max-width: 466px) {
+
+    .footer-nav a {
+        font-size: .3rem;
+    }
+
+    .footer-nav {
+        font-size: .5rem;
+    }
+
+    .footer-nav {
+        margin: 0 1rem;
+    }
+
+    .img-icon1 {
+        width: 120px;
+    }
+
+    .img-icon2 {
+        width: 50px;
+    }
+
+    .footer-icons {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 420px) {
+
+    .container-footer {
+        top: 75rem;
+    }
+
+    .img-icon1 {
+        width: 80px;
+    }
+
+    .img-icon2 {
+        width: 30px;
+    }
+
+    .left-icons {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media screen and (max-width: 260px) {
+
+    .container-footer {
+        top: 82rem;
+    }
+
+    .left-icons {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
