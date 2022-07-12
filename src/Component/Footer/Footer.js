@@ -2,6 +2,9 @@ import Icon from '../Global/Icon/Icon';
 import './Footer.css';
 
 export default function Footer() {
+
+    
+
   return (
     <>
     <div className="container-footer">

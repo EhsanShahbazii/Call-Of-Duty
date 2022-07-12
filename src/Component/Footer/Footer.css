@@ -1,6 +1,6 @@
 .container-footer {
     margin: 0 auto;
-    height: 500px;
+    height: 600px;
     width: 80%;
     display: flex;
     justify-content: center;
@@ -51,4 +51,17 @@
 .img-icon1 {
     width: 250px;
     margin-left: 1.5rem;
+}
+
+.footer-detail {
+    margin-top: 2rem;
+    text-align: center;
+    width: 70%;
+    color: #969696;
+    font-size: .8rem;
+    text-shadow: 0 0 30px rgb(255 255 255 / 50%);
+}
+
+.footer-detail span {
+    text-transform: lowercase;
 }
