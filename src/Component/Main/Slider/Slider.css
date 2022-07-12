@@ -105,3 +105,164 @@
 .right-arrow {
     transform: rotate(180deg)
 }
+
+/***** responsive codes *****/
+
+@media screen and (max-width: 1450px) {
+
+    .slider-tainer {
+        width: 1000px;
+    }
+
+}
+
+@media screen and (max-width: 1220px) {
+
+    .slider-tainer {
+        width: 800px;
+    }
+
+}
+
+@media screen and (max-width: 960px) {
+
+    .slider-tainer {
+        width: 600px;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+
+    .container-slider {
+        top: 25rem;
+    }
+
+}
+
+@media screen and (max-width: 750px) {
+
+    .slider-tainer {
+        width: 550px;
+    }
+
+    .sl img {
+        width: 20px;
+    }
+
+}
+
+@media screen and (max-width: 680px) {
+
+    .slider-tainer {
+        width: 300px;
+    }
+
+}
+
+@media screen and (max-width: 590px) {
+
+    .filters {
+        font-size: .7rem;
+    }
+
+    .no {
+        width: 20px;
+        height: 20px;
+    }
+
+    .view-all {
+        font-size: .5rem;
+    }
+
+}
+
+@media screen and (max-width: 490px) {
+
+    .filters {
+        font-size: .5rem;
+    }
+
+    .no {
+        width: 15px;
+        height: 15px;
+    }
+
+    .view-all a {
+        font-size: .6rem;
+    }
+
+    .header-detail {
+        font-size: .7rem;
+    }
+
+}
+
+@media screen and (max-width: 430px) {
+
+    .slider-tainer {
+        width: 250px;
+    }
+
+}
+
+@media screen and (max-width: 380px) {
+
+    .filters {
+        font-size: .4rem;
+    }
+
+    .no {
+        width: 10px;
+        height: 10px;
+    }
+
+    .view-all a {
+        font-size: .5rem;
+    }
+
+    .header-detail {
+        font-size: .6rem;
+    }
+
+    .slider-tainer {
+        width: 200px;
+    }
+
+    .sl {
+        width: 10px;
+    }
+
+    .sl img {
+        width: 10px;
+    }
+
+}
+
+@media screen and (max-width: 330px) {
+
+    .filters {
+        display: none;
+    }
+
+    .no {
+        display: none;
+    }
+
+    .view-all a {
+        font-size: .6rem;
+    }
+
+    .header-detail {
+        font-size: .7rem;
+    }
+
+}
+
+@media screen and (max-width: 330px) {
+
+    .slider-tainer {
+        width: 150px;
+    }
+    
+}
