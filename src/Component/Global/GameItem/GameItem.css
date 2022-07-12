@@ -1,8 +1,8 @@
 .container-get {
     position: relative;
-    max-width: 300px;
+    max-width: 275px;
     min-width: 200px;
-    max-height: 300px;
+    max-height: 275px;
     min-height: 200px;
     overflow: hidden;
     border: 1.5px solid yellow;
