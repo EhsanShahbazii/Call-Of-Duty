@@ -1,7 +1,8 @@
 .container-gridItem {
-    width: 500px;
-    height: 320px;
+    width: 100%;
+    height: 100%;
     cursor: pointer;
+    min-width: 490px;
 }
 
 .container-gridItem:hover .image-tainer img {
