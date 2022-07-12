@@ -4,10 +4,10 @@ import GameItem from '../../Global/GameItem/GameItem';
 export default function GetGame() {
 
   const gameData = [
-    {image: './images/main page/get-the-game-part/COD-Mobile-x-Girls-Frontline.jpg', text: 'blockbuster campion multiplayer and zombie'},
-    {image: './images/main page/get-the-game-part/callofdutycoldwar.jpg', text: 'the iconic modern warfare ii series is back'},
-    {image: './images/main page/get-the-game-part/578050-call-of-duty-season-one-extended.jpg', text: 'free to play battle royale and more'},
-    {image: './images/main page/get-the-game-part/6ed05ced-c49a-416b-b1fa-289898162811.jpeg', text: 'the thrill of call of duty on the go'}
+    {image: './images/main page/get-the-game-part/1.jpeg', text: 'blockbuster campion multiplayer and zombie'},
+    {image: './images/main page/get-the-game-part/2.jpg', text: 'the iconic modern warfare ii series is back guys'},
+    {image: './images/main page/get-the-game-part/3.webp', text: 'free to play battle royale and more in now available'},
+    {image: './images/main page/get-the-game-part/4.jpg', text: 'the thrill of call of duty on the go and play it'}
   ]
 
   return (
