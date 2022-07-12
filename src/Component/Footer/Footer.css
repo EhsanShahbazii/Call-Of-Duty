@@ -27,3 +27,28 @@
     color: #a59d95;
     text-decoration: none;
 }
+
+.footer-icons {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-icons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-right: 2rem;
+}
+
+.right-icons {
+    margin-left: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.img-icon1 {
+    width: 250px;
+    margin-left: 1.5rem;
+}
