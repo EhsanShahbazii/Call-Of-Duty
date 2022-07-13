@@ -8,5 +8,7 @@
 ![alt text](preview/pre4.png)
 # 4
 ![alt text](preview/pre5.png)
+# Modal sign in
+![alt text](preview/pre6.png)
 
 https://ehsanshahbazii.github.io/Call-Of-Duty/
