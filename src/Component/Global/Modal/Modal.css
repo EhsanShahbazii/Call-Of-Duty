@@ -1,0 +1,14 @@
+.modal-tainer {
+    background-color: #000;
+    width: 1000px;
+    height: 500px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+}
+
+.modal-tainer img {
+    width: 500px;
+}
