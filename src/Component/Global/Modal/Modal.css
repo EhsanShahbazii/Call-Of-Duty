@@ -57,6 +57,7 @@
 }
 
 .login-form input {
+    text-transform: none;
     width: 100%;
     height: 30px;
     outline: none;
