@@ -11,7 +11,6 @@ export default function App() {
   return (
     <>
       <NavBar />
-      <Modal />
       <Landing />
       <Grid />
       <Slider />
