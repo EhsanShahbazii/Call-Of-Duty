@@ -27,8 +27,8 @@ export default class Modal extends React.Component {
   render () {
     return (
       <>
-      <div className="window-container">
-      <div className={["modal-tainer", "active"].join(' ')} >
+      <div className={this.props.active + '1'}>
+      <div className={["modal-tainer", this.props.active].join(' ')} >
           <div className='img-login'>
               <img src="./images/general/modal-part/call-of-duty-man-with-guns.jpg" alt="login images" />
           </div>
