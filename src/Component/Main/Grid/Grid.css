@@ -23,6 +23,8 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    animation: picShake 5s linear infinite;
+    transition: scale 2s;
 }
 
 .text-box {
@@ -42,6 +44,24 @@
 .one img {
     width: 300px;
     margin: 0 2rem;
+}
+
+@keyframes picShake {
+    0%, 100% {
+        transform: scale(1.00);
+    }
+    20% {
+        transform: scale(1.01);
+    }
+    40% {
+        transform: scale(1.01);
+    }
+    60% {
+        transform: scale(1.01);
+    }
+    20% {
+        transform: scale(1.00);
+    }
 }
 
 /***** responsive codes *****/
