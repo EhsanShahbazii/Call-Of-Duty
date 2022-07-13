@@ -20,7 +20,7 @@ export default function NavBar() {
             </div>
             <div className='right-box'>
                 <div className='log-part'>
-                    <a href="#">LOGIN</a>
+                    <a href="#">Sign in</a>
                     <b>|</b>
                     <a href="#">SIGN UP</a>
                 </div>

@@ -7,8 +7,42 @@
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 100;
+    display: flex;
 }
 
 .modal-tainer img {
     width: 500px;
+}
+
+.cod-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem 0;
+}
+
+.cod-icon span {
+    margin: 1rem 0;
+    color: #fff;
+    font-size: 1rem;
+    width: 80%;
+    font-weight: 800;
+    text-align: center;
+}
+
+.cod-icon img {
+    width: 300px;
+}
+
+.login-form {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-form label {
+    color: #fff;
+    display: block;
 }
