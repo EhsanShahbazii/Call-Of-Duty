@@ -3,11 +3,12 @@
     width: 1000px;
     height: 500px;
     position: fixed;
-    top: 50%;
+    top: -50%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 100;
     display: flex;
+    transition: top 1s ease-in-out;
 }
 
 .modal-tainer img {
@@ -45,4 +46,58 @@
 .login-form label {
     color: #fff;
     display: block;
+    font-size: .8rem;
+    text-transform: lowercase;
+    margin-bottom: 4px;
+}
+
+.username-part, .password-part {
+    margin: .5rem 0;
+    width: 250px;
+}
+
+.login-form input {
+    width: 100%;
+    height: 30px;
+    outline: none;
+    background-color: #d8d8d8;
+    border: none;
+    border-radius: 3px;
+    padding: 1rem;
+    font-weight: 500;
+}
+
+.error-span {
+    color: red;
+    text-transform: lowercase;
+    font-size: .8rem;
+}
+
+.submit-btn {
+    width: 250px;
+    height: 40px;
+    margin-top: 1rem;
+    cursor: pointer;
+    font-weight: 700;
+    background-image: url("../../../../public/images/general/header-nav/global-nav-bg.png");
+    background-size: 2px;
+    background-position: center;
+    letter-spacing: 2px;
+    color: #fff;
+    transition: all .2s linear;
+}
+
+.submit-btn:hover {
+    background-size: 3px;
+    border: 1px solid #fff;
+    text-shadow: 0 0 10px rgb(255 255 255 / 80%);
+}
+
+.login-form img {
+    margin-top: 1rem;
+    width: 100px;
+}
+
+.active {
+    top: 50%;
 }
