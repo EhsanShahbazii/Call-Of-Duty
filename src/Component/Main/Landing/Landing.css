@@ -45,11 +45,11 @@ h2 {
     margin: 0 .5rem;
     width: 400px;
     text-align: center;
-    color: #969696;
-    font-weight: 600;
-    font-size: 1.3rem;
-    letter-spacing: 1px;
-    line-height: 25px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.25rem;
+    letter-spacing: 2px;
+    line-height: 20px;
     text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
 }
 
