@@ -7,6 +7,25 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    animation: changeBG 20s linear infinite;
+}
+
+@keyframes changeBG {
+    0%, 90%, 100% {
+        background-image: url("../../../../public/images/main page/landing-part/5-24-ghost-hub-hero-desktop.jpg");
+    }
+    10%,20% {
+        background-image: url("../../../../public/images/main page/landing-part/call-of-duty-vanguard_2560x1440_xtrafondos.com.jpg");
+    }
+    30%, 40% {
+        background-image: url("../../../../public/images/main page/landing-part/specialist-seraph-in-call-of-duty-black-ops-3_2560x1440_xtrafondos.com.jpg");
+    }
+    50%, 60% {
+        background-image: url("../../../../public/images/main page/landing-part/call-of-duty-modern-warfare--wallpaper.jpg");
+    }
+    70%, 80% {
+        background-image: url("../../../../public/images/main page/landing-part/05lb3qcb9kh41.jpg");
+    }
 }
 
 section {
@@ -39,6 +58,7 @@ h2 {
 @media screen and (max-width: 800px) {
 
     .containers {
+        animation: none;
         background-image: url("../../../../public/images/main page/landing-part/MWII.jpg");
         background-position: center;
         background-repeat: no-repeat;
