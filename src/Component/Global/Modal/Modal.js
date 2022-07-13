@@ -10,17 +10,18 @@ export default class Modal extends React.Component {
       email: '',
       password: ''
     }
-
-    this.emailHandler = this.emailHandler.bind(this);
-
   }
 
   emailHandler (event) {
-    console.log(event.target.value);
+    this.setState({
+      email: event.target.value
+    })
   }
 
-  passwordHandler () {
-
+  passwordHandler (event) {
+    this.setState({
+      password: event.target.value
+    })
   }
 
   render () {
@@ -39,13 +40,16 @@ export default class Modal extends React.Component {
               <form className='login-form'>
                   <div className="username-part">
                   <label>Email Address</label>
-                  <input type="email" className='userName-login' onChange={(event) => this.emailHandler(event)} />
+                  <input type="email" className='userName-login' maxLength={26} required onChange={(event) => this.emailHandler(event)} />
                   </div>
                   <div className="password-part">
                   <label>Password</label>
-                  <input type="password"className='password-login' onChange={(event) => this.passwordHandler(event)} />
+                  <input type="password"className='password-login' maxLength={26} minLength={8} required onChange={(event) => this.passwordHandler(event)} />
                   </div>
-                  <span className='error-span'>please fill the email and passowrd</span>
+                  <span className='error-span'>
+                    {this.state.password.length < 8 &&
+                    "Password must be at least 8 characters"}
+                  </span>
                   <button className='submit-btn'>Sign in</button>
                   <img src="./images/general/footer-part/digital-legends-logo.png" alt="icons" />
               </form>
