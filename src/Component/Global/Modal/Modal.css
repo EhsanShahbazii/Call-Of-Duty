@@ -12,7 +12,7 @@
 }
 
 .modal-tainer img {
-    width: 500px;
+    height: 100%;
 }
 
 .cod-icon {
@@ -101,4 +101,189 @@
 
 .active {
     top: 50%;
+}
+
+/********** responsive **********/
+
+@media screen and (max-width: 1060px) {
+
+    .modal-tainer {
+        width: 800px;
+        height: 400px;
+    }
+
+    .cod-icon {
+        width: 400px;
+    }
+
+    .cod-icon img {
+        width: 200px;
+    }
+
+    .cod-icon span {
+        font-size: .8rem;
+    }
+
+    .login-form {
+        width: 400px;
+    }
+
+    .login-form img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 830px) {
+
+    .modal-tainer {
+        width: 600px;
+        height: 300px;
+    }
+
+    .cod-icon {
+        width: 300px;
+        padding: 0;
+    }
+
+    .cod-icon img {
+        width: 100px;
+    }
+
+    .cod-icon span {
+        font-size: .7rem;
+        margin: .5rem;
+    }
+
+    .login-form {
+        width: 300px;
+    }
+
+    .login-form img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 630px) {
+
+    .modal-tainer {
+        width: 400px;
+        height: 400px;
+    }
+
+    .modal-tainer img {
+        display: none;
+    }
+
+    .cod-icon {
+        width: 400px;
+        padding: 1rem;
+    }
+
+    .cod-icon img {
+        display: block;
+        width: 200px;
+    }
+
+    .cod-icon span {
+        font-size: .7rem;
+        margin: 1rem;
+    }
+
+    .login-form {
+        width: 400px;
+    }
+
+    .login-form img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 430px) {
+
+    .modal-tainer {
+        width: 300px;
+        height: 450px;
+        align-items: center;
+    }
+
+    .modal-tainer img {
+        display: none;
+    }
+
+    .cod-icon {
+        width: 300px;
+        padding: 1rem;
+    }
+
+    .cod-icon img {
+        display: block;
+        width: 200px;
+    }
+
+    .cod-icon span {
+        font-size: .7rem;
+        margin: 1rem;
+    }
+
+    .login-form {
+        width: 300px;
+    }
+
+    .login-form img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .modal-tainer {
+        width: 250px;
+        height: 400px;
+        align-items: center;
+    }
+
+    .modal-tainer img {
+        display: none;
+    }
+
+    .cod-icon {
+        width: 250px;
+        padding: 1rem;
+    }
+
+    .cod-icon img {
+        display: block;
+        width: 200px;
+    }
+
+    .cod-icon span {
+        font-size: .7rem;
+        margin: 1rem;
+    }
+
+    .login-form {
+        width: 250px;
+    }
+
+    .username-part, .password-part {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .submit-btn {
+        width: 200px;
+    }
+
+    .error-span {
+        font-size: .6rem;
+    }
+
+    .login-form img {
+        display: none;
+    }
+
+    .login-form input {
+        width: 200px;
+    }
 }
