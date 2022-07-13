@@ -3,7 +3,7 @@ import './Modal.css';
 export default function Modal({active}) {
   return (
     <>
-    <div className={["modal-tainer", "active"].join(' ')} >
+    <div className={["modal-tainer", active].join(' ')} >
         <div className='img-login'>
             <img src="./images/general/modal-part/call-of-duty-man-with-guns.jpg" alt="login images" />
         </div>
