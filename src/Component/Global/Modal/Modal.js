@@ -27,7 +27,8 @@ export default class Modal extends React.Component {
   render () {
     return (
       <>
-      <div className={["modal-tainer", this.props.active].join(' ')} >
+      <div className="window-container">
+      <div className={["modal-tainer", "active"].join(' ')} >
           <div className='img-login'>
               <img src="./images/general/modal-part/call-of-duty-man-with-guns.jpg" alt="login images" />
           </div>
@@ -54,6 +55,7 @@ export default class Modal extends React.Component {
                   <img src="./images/general/footer-part/digital-legends-logo.png" alt="icons" />
               </form>
           </div>
+      </div>
       </div>
       </>
     )
