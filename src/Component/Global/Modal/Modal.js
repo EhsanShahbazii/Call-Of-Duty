@@ -28,15 +28,15 @@ export default class Modal extends React.Component {
     return (
       <>
       <div className={this.props.active + '1'}>
-      <div className={["modal-tainer", this.props.active].join(' ')} >
+      <div className={["modal-tainer", this.props.active, this.props.signUp].join(' ')} >
           <div className='img-login'>
-              <img src="./images/general/modal-part/call-of-duty-man-with-guns.jpg" alt="login images" />
+              <img src={this.props.image} alt="login images" />
           </div>
           <div className='login-forms'>
               <div className='cod-icon'>
               <span>Join the world of</span>
               <img src="./images/general/modal-part/cod-logo.png" alt="cod icon" />
-              <span>SIGN IN TO YOUR ACCOUNT</span>
+              <span>{this.props.st === "signIn" ? "Sign in" : "Sign up"} TO YOUR ACCOUNT</span>
               </div>
               <form className='login-form'>
                   <div className="username-part">
@@ -51,7 +51,9 @@ export default class Modal extends React.Component {
                     {this.state.password.length < 8 &&
                     "Password must be at least 8 characters"}
                   </span>
-                  <button className='submit-btn'>Sign in</button>
+                  <button className='submit-btn'>
+                    {this.props.st === "signIn" ? "Sign in" : "Sign up"}
+                  </button>
                   <img src="./images/general/footer-part/digital-legends-logo.png" alt="icons" />
               </form>
           </div>
@@ -60,4 +62,9 @@ export default class Modal extends React.Component {
       </>
     )
   }
+}
+
+Modal.defaultProps = {
+  image: './images/general/modal-part/call-of-duty-man-with-guns.jpg',
+  st: 'signIn'
 }

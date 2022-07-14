@@ -9,22 +9,34 @@ export default class NavBar extends React.Component {
         super(props)
 
         this.state = {
-            signIn: false
+            signIn: false,
+            signUp: false
         }
 
         this.signInHandler = this.signInHandler.bind(this)
+        this.signUpHandler = this.signUpHandler.bind(this)
     }
 
     signInHandler () {
         this.setState({
-            signIn: !this.state.signIn
+            signIn: !this.state.signIn,
+            signUp: false
         })
+    }
+
+    signUpHandler () {
+        this.setState({
+            signUp: !this.state.signUp,
+            signIn: false
+        })
+        console.log("hes");
     }
 
     render () {
         return (
             <>
             {this.state.signIn ? <Modal active={"active"} /> : <Modal />}
+            {this.state.signUp ? <Modal active={"active"} signUp={"signUp"} image={'./images/general/modal-part/new_era-mw2.jpg'} st={'signUp'} /> : <Modal  signUp={"signUp"} image={'./images/general/modal-part/new_era-mw2.jpg'} st={'signUp'} />}
             <div className="container">
                 <div className='left-box'>
                     <div className='logo'>
@@ -44,7 +56,7 @@ export default class NavBar extends React.Component {
                     <div className='log-part'>
                         <a href="#" onClick={this.signInHandler}>Sign in</a>
                         <b>|</b>
-                        <a href="#">SIGN UP</a>
+                        <a href="#" onClick={this.signUpHandler}>Sign up</a>
                     </div>
                     <div className='shield-part'>
                         <img src="./images/general/header-nav/shield_icon_no_drop.png" alt="shield icon" />

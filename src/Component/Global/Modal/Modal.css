@@ -22,6 +22,10 @@
     transition: top 1s ease-in-out;
 }
 
+.signUp {
+    flex-direction: row-reverse;
+}
+
 .modal-tainer img {
     height: 100%;
 }
