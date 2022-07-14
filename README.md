@@ -10,5 +10,7 @@
 ![alt text](preview/pre5.png)
 # Modal sign in
 ![alt text](preview/image_2022-07-14_021822827.png)
+# Modal sign up
+![alt text](preview/pre7.png)
 
 https://ehsanshahbazii.github.io/Call-Of-Duty/
