@@ -22,4 +22,5 @@
     position: absolute;
     bottom: 0;
     padding: .5rem 1.5rem;
+    backdrop-filter: blur(2px);
 }
