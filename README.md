@@ -1,16 +1,11 @@
 # preview
-![alt text](preview/pre1.png)
-# 1
-![alt text](preview/pre2.png)
-# 2
-![alt text](preview/pre3.png)
-# 3
-![alt text](preview/pre4.png)
-# 4
-![alt text](preview/pre5.png)
+![alt text](preview/rsz_p1.png)
+![alt text](preview/rsz_p2.png)
+![alt text](preview/rsz_p3.png)
+![alt text](preview/rsz_p4.png)
 # Modal sign in
-![alt text](preview/image_2022-07-14_021822827.png)
+![alt text](preview/rsz_1pre6.png)
 # Modal sign up
-![alt text](preview/pre7.png)
+![alt text](preview/rsz_pre7.png)
 
 https://ehsanshahbazii.github.io/Call-Of-Duty/
